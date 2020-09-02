@@ -1,3 +1,7 @@
+# 个人改动
+> 注释了stats中的isDone，保证所有的entries都能被保留
+> 修改了har文件中的parseEntries，让没有response的元素，也能被保留，response里面的所有信息为空，以time为undefined为标志
+
 # chrome-har-capturer [![Build Status][]][travis]
 
 [Build Status]: https://travis-ci.org/cyrus-and/chrome-har-capturer.svg?branch=master
